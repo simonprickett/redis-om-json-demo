@@ -1,0 +1,30 @@
+{
+  "name": "redis-om-json-demo",
+  "version": "1.0.0",
+  "description": "Redis OM Node.js and RediSearch / RedisJSON demo.",
+  "main": "index.js",
+  "scripts": {
+    "load": "node load_data.js",
+    "query": "node query_data.js",
+    "update": "node update_data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonprickett/redis-om-json-demo.git"
+  },
+  "keywords": [
+    "redis"
+  ],
+  "author": "Redis Developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonprickett/redis-om-json-demo/issues"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/simonprickett/redis-om-json-demo#readme",
+  "dependencies": {
+    "redis-om": "^0.1.4"
+  }
+}
