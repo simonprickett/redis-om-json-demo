@@ -1,2 +1,8 @@
 // Load Data into Redis...
-console.log('TODO... load data!');
+import { Client, Repository } from 'redis-om';
+
+async function loadAnimals() {
+  console.log('TODO... load data!');
+}
+
+loadAnimals();

@@ -2,7 +2,7 @@
   "name": "redis-om-json-demo",
   "version": "1.0.0",
   "description": "Redis OM Node.js and RediSearch / RedisJSON demo.",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "load": "node load_data.js",
     "query": "node query_data.js",

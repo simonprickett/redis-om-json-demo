@@ -1,2 +1,8 @@
 // Query JSON Data in Redis...
-console.log('TODO... query data!');
+import { Client, Repository } from 'redis-om';
+
+async function queryAnimals() {
+  console.log('TODO... query data!');
+}
+
+queryAnimals();
